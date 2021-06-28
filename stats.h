@@ -12,7 +12,7 @@
  * @file stats.h 
  * @brief Contains descriptions of each functions used in stats.c program
  *
- * <Add Extended Description Here>
+ * ver 2
  *
  * @author Sachinkumar Dubey
  * @date 27 June 2021
