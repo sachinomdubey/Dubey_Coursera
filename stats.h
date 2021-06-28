@@ -12,7 +12,7 @@
  * @file stats.h 
  * @brief Contains descriptions of each functions used in stats.c program
  *
- * ver 2
+ * <Add Extended Description Here>
  *
  * @author Sachinkumar Dubey
  * @date 27 June 2021
@@ -28,7 +28,7 @@
  * @param N - Denotes the size of the input array.
  * @return return nothing, just prints the various statistics.
  */
-void print_statistics(int arr[],int N);
+void print_statistics(unsigned char *arr,int N);
 
 /**
  * @brief Given an array of data and a length, prints the array to the screen.
@@ -36,7 +36,7 @@ void print_statistics(int arr[],int N);
  * @param N - Denotes the size of the input array.
  * @return Return nothing, just prints the array.
  */
-void print_array(int arr[],int N);
+void print_array(unsigned char *arr,int N);
 
 /**
  * @brief Given an array of data and a length, returns the median value.
@@ -44,7 +44,7 @@ void print_array(int arr[],int N);
  * @param N - Denotes the size of the input array.
  * @return returns the median of the array which is a float value.
  */
-float find_median(int arr[],int N);
+float find_median(unsigned char *arr,int N);
 
 /**
  * @brief Given an array of data and a length, returns the mean value.
@@ -52,7 +52,7 @@ float find_median(int arr[],int N);
  * @param N - Denotes the size of the input array.
  * @return returns the mean of the array which is a float value.
  */
-float find_mean(int arr[],int N);
+float find_mean(unsigned char *arr,int N);
 
 /**
  * @brief Given an array of data and a length, returns the maximum value.
@@ -60,7 +60,7 @@ float find_mean(int arr[],int N);
  * @param N - Denotes the size of the input array.
  * @return returns the maximum value of the array which is a int value.
  */
-int find_maximum(int arr[],int N);
+int find_maximum(unsigned char *arr,int N);
 
 /**
  * @brief Given an array of data and a length, returns the minimum value.
@@ -68,7 +68,7 @@ int find_maximum(int arr[],int N);
  * @param N - Denotes the size of the input array.
  * @return returns the minimum value of the array which is a int value.
  */
-int find_minimum(int arr[], int N);
+int find_minimum(unsigned char *arr, int N);
 
 /**
  * @brief Given an array of data and a length, sorts the array from largest to smallest.  
@@ -77,6 +77,6 @@ int find_minimum(int arr[], int N);
  * @param N - Denotes the size of the input array.
  * @return return nothing, Just sorts the given array from largest to smallest.
  */
-void sort_array(int arr[],int N);
+void sort_array(unsigned char *arr,int N);
 
 #endif /* __STATS_H__ */
